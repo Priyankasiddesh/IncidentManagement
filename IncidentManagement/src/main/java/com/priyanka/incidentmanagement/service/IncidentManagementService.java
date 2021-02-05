@@ -27,5 +27,8 @@ public class IncidentManagementService {
 		return imrepo.findById(id);
 	}
 	
-	
+	public IncidentManagement getByApplication(String applicationsection) {
+		return imrepo.getByApplication(applicationsection);
+	}
+
 }
